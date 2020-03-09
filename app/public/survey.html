@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/../../node_modules/bulma/css/bulma.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <title>Survey</title>
+</head>
+
+<body>
+    <section class="hero is-fullheight is-light is-bold">
+        <div class="hero-head">
+            <div class="container">
+                <h1 class="title">
+                    <br>
+                    <span class="icon"><i class="far fa-clipboard"></i></span> Survey Questions
+                </h1>
+                <div class="box">
+                    <h1 class="title">About You</h1>
+                    <h2>Name (Required)</h2>
+                    <input class="input is-rounded" id="name" type="text" required>
+                    <h2>Link to Photo Image (Required)</h2>
+                    <input class="input is-rounded " id="photo" type="text " required>
+                </div>
+                <div class="box">
+                    <h1 class="has-text-centered has-text-weight-bold">Question 1</h1>
+                    <h2 class="has-text-centered">Your mind is always buzzing with unexplored ideas and plans.</h2>
+                    <div class="control has-text-centered" id="q1">
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="1">  1 (Strongly Disagree)
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="2">  2
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="3">  3
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="4">  4
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="5">  5 (Strogly Agree)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h1 class="has-text-centered has-text-weight-bold">Question 2</h1>
+                    <h2 class="has-text-centered">Generally speaking, you rely more on your experience than your imagination.</h2>
+                    <div class="control has-text-centered" id="q2">
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="1">  1 (Strongly Disagree)
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="2">  2
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="3">  3
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="4">  4
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="5">  5 (Strogly Agree)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h1 class="has-text-centered has-text-weight-bold">Question 3</h1>
+                    <h2 class="has-text-centered">You find it easy to stay relaxed and focused even when there is some pressure.</h2>
+                    <div class="control has-text-centered" id="q3">
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="1">  1 (Strongly Disagree)
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="2">  2
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="3">  3
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="4">  4
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="5">  5 (Strogly Agree)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h1 class="has-text-centered has-text-weight-bold">Question 4</h1>
+                    <h2 class="has-text-centered">You rarely do something just out of sheer curiosity.</h2>
+                    <div class="control has-text-centered" id="q4">
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="1">  1 (Strongly Disagree)
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="2">  2
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="3">  3
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="4">  4
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="5">  5 (Strogly Agree)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h1 class="has-text-centered has-text-weight-bold">Question 5</h1>
+                    <h2 class="has-text-centered">People can rarely upset you.</h2>
+                    <div class="control has-text-centered" id="q5">
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="1">  1 (Strongly Disagree)
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="2">  2
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="3">  3
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="4">  4
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="5">  5 (Strogly Agree)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h1 class="has-text-centered has-text-weight-bold">Question 6</h1>
+                    <h2 class="has-text-centered">It is often difficult for you to relate to other people’s feelings.</h2>
+                    <div class="control has-text-centered" id="q6">
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="1">  1 (Strongly Disagree)
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="2">  2
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="3">  3
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="4">  4
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="5">  5 (Strogly Agree)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h1 class="has-text-centered has-text-weight-bold">Question 7</h1>
+                    <h2 class="has-text-centered">In a discussion, truth should be more important than people’s sensitivities.</h2>
+                    <div class="control has-text-centered" id="q7">
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="1">  1 (Strongly Disagree)
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="2">  2
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="3">  3
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="4">  4
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="5">  5 (Strogly Agree)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h1 class="has-text-centered has-text-weight-bold">Question 8</h1>
+                    <h2 class="has-text-centered">You rarely get carried away by fantasies and ideas.</h2>
+                    <div class="control has-text-centered" id="q8">
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="1">  1 (Strongly Disagree)
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="2">  2
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="3">  3
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="4">  4
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="5">  5 (Strogly Agree)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h1 class="has-text-centered has-text-weight-bold">Question 9</h1>
+                    <h2 class="has-text-centered">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h2>
+                    <div class="control has-text-centered" id="q9">
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="1">  1 (Strongly Disagree)
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="2">  2
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="3">  3
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="4">  4
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="5">  5 (Strogly Agree)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h1 class="has-text-centered has-text-weight-bold">Question 10</h1>
+                    <h2 class="has-text-centered">You feel more energetic after spending time with a group of people.</h2>
+                    <div class="control has-text-centered" id="q10">
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="1">  1 (Strongly Disagree)
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="2">  2
+                        </label>
+                        <label class="radio">
+                          <input type="radio" name="rsvp" value="3">  3
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="4">  4
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rsvp" value="5">  5 (Strogly Agree)
+                        </label>
+                    </div>
+                </div>
+
+                <input class="button" type="submit" value="Submit input">
+
+
+            </div>
+            <div class="hero-head">
+                <div class="container"></div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
