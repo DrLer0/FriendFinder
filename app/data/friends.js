@@ -199,7 +199,7 @@ var friendsArray = [{
     },
     {
         "name": "Jonathan",
-        "photo": "(0.0)",
+        "photo": "https://lh3.googleusercontent.com/proxy/rdyqbQdsaIfGrGPDQOALMmnLgNYvROQXN05WeqRiHVyyd7XlIeZlBGqvct6gdQctyu9QigCZI7RlSASy4S4pIr_quu8gkQb5vDf0Uh8Yq9ur2jpPCn6uLgfuIceMD7W4kqM9LzfM1q2BHOmBLA",
         "scores": [
             "5",
             "3",
