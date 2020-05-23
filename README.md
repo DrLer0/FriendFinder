@@ -7,3 +7,6 @@ To start, just click the button to go to survey, fill out your name and add a li
 # Features
 * Mobile responsive! Find friends from your phone
 * To see the list of available friends, click the link at the bottom of the homepage!
+
+## Technologies Used:
+Bulma, express, Node.js, npm
